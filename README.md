@@ -16,7 +16,6 @@ This is a simple yet powerful AI chatbot interface built with **Google's Gemini 
 ## 🛠️ Installation
 
 1. **Clone the repo:**
-   IN bash
    https://github.com/GANESH-RAJEEV/chatbot-with-gemini.git
    cd gemini-chatbot
 
@@ -33,7 +32,6 @@ GEMINI_API_KEY=your_google_genai_key_here
 You can get your API key from: https://makersuite.google.com/app
 
 ▶️ Run the App
-IN bash
 streamlit run app.py
 Replace app.py with your filename if it’s different.
 
@@ -48,6 +46,7 @@ Replace app.py with your filename if it’s different.
 
 🧾 Sample Code (included in the project)
 
+<pre>```python
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
@@ -76,6 +75,7 @@ st.markdown("<h1 style='text-align: center;'> 🔥ask anything🔥</h1>", unsafe
 a = st.chat_input("enter prompt")
 if a:
     press(a)
+```python</pre>
 
 
 
