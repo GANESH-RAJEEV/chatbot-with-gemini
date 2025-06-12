@@ -14,8 +14,9 @@ This is a simple yet powerful AI chatbot interface built with **Google's Gemini 
 ---
 
 ## 📸 Preview
+![chatbot-ui](https://github.com/user-attachments/assets/02edf021-7279-4776-a3d0-95ac2be2055a)
 
-![Chatbot UI](assets/chatbot-ui.jpeg)
+
 
 
 
