@@ -46,7 +46,7 @@ Replace app.py with your filename if it’s different.
 
 🧾 Sample Code (included in the project)
 
-<pre>```python
+<pre>```
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
@@ -71,7 +71,7 @@ st.markdown("""
             }    
         </style>""", unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center;'> 🔥ask anything🔥</h1>", unsafe_allow_html=True)
+st.markdown("""<h1 style='text-align: center;'> 🔥ask anything🔥</h1>""", unsafe_allow_html=True)
 a = st.chat_input("enter prompt")
 if a:
     press(a)
