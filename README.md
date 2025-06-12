@@ -17,14 +17,14 @@ This is a simple yet powerful AI chatbot interface built with **Google's Gemini 
 
 1. **Clone the repo:**
    https://github.com/GANESH-RAJEEV/chatbot-with-gemini.git
-   cd gemini-chatbot
+   ```bash cd gemini-chatbot```
 
 2. 🐍 Create a Virtual Environment (Optional but Recommended)
-    python -m venv venv
+   ```bash python -m venv venv```
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. 📥 Install Dependencies
-    pip install -r requirements.txt
+    ```bash pip install -r requirements.txt```
 
 4. 🔑 Set Up Your API Key
 Create a .env file in the root folder:
