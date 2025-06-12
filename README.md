@@ -23,7 +23,8 @@ This is a simple yet powerful AI chatbot interface built with **Google's Gemini 
 2. 🐍 Create a Virtual Environment (Optional but Recommended)
    ```bash
     python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 4. 📥 Install Dependencies
     ```bash
@@ -36,7 +37,6 @@ You can get your API key from: https://makersuite.google.com/app
 
 ▶️ Run the App
 streamlit run app.py
-Replace app.py with your filename if it’s different.
 
 
 ## 📸 Preview
